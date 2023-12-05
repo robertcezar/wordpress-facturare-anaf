@@ -25,7 +25,7 @@
 	
 	
 	//define constants
-	define("ANAF_API_URL", "https://webservicesp.anaf.ro/PlatitorTvaRest/api/v6/ws/tva");
+	define("ANAF_API_URL", "https://webservicesp.anaf.ro/PlatitorTvaRest/api/v6/ws/tva"); //https://static.anaf.ro/static/10/Anaf/Informatii_R/doc_WS_V6.txt
 	define("CIF_ERROR_MESSAGE", "<b>CIF/CUI</b> nu exista sau nu este corect");
 	define("ANAF_API_URL_PLUG",  WP_PLUGIN_URL . "/". str_replace( basename( __FILE__ ), "", plugin_basename(__FILE__) ));
 	/**
@@ -317,6 +317,7 @@
 							
 							$(".anafcheck").hide(); //hide button if data automcpleted
 							} else {
+							alert("CIF/CUI este incorect, verifica si introdu din nou.");
 							console.log("No matching data found.");
 						}
 					}
