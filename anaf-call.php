@@ -1,7 +1,7 @@
 <?php
 	//check if post is done
 	if (isset($_POST["billing_b_cif"]) && !empty($_POST["billing_b_cif"])) {
-		$url = 'https://webservicesp.anaf.ro/PlatitorTvaRest/api/v6/ws/tva';
+		$url = 'https://webservicesp.anaf.ro/PlatitorTvaRest/api/v8/ws/tva';
 		$ch = curl_init($url);
 		$jsonData = array(
         'cui' => preg_replace("/[^0-9]/", "", $_POST['billing_b_cif']),
