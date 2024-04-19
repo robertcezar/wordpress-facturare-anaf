@@ -7,7 +7,7 @@ Requires PHP: 5.6
 Tested up to: 6.4
 WC requires at least: 4.0.0
 WC tested up to: 7.2
-Stable tag: 1.7.0
+Stable tag: 1.8.0
 License: GPL v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -38,6 +38,9 @@ Dupa instalare nu mai trebuie sa mai faci absolut nimic, campurile o sa apara pe
 
 
 == Changelog ==
+** 1.8.0 **
+Adde new ANAF endpoint
+
 ** 1.7.0 **
 - Added support for CUI/CIF verification through ANAF API call
 - Added support for HPOS
