@@ -1,8 +1,11 @@
 Automatically adds Romanian billing fields to woocommerce checkout
-== Description ==
 
+
+== Description ==
 This plugin adds Romanian billing fields to woocommerce checkout.
 Also it verifies if it the company CUI/CIF exists in the ANAF database
+
+
 
 == Changelog ==
 
